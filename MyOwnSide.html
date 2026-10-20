@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oslo Reiseführer</title>
+    <link rel="stylesheet" href="MyOwnSide.css">
+</head>
+<body>
+
+    <nav class="navbar">
+
+        <div class="nav-container">
+        <div class="logo">Oslo Reiseführer</div>
+            <ul class="nav-links">
+            <li><a href="#home">Startseite</a></li>
+            <li><a href="#history">Geschichte</a></li>
+            <li><a href="#attractions">Sehenswürdigkeiten</a></li>
+            <li><a href="#transport">Verkehr</a></li>
+            <li><a href="#restaurants">Restaurants</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="carousel-container">
+        <div class="carousel">
+        <div class="carousel-slide active">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop" alt="Oslo Stadt">
+        <div class="carousel-caption">
+<h1>Willkommen in Oslo</h1>
+            <p>Die grüne Hauptstadt Norwegens</p>
+        </div>
+        </div>
+        <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1518684079-7723277dba5c?w=1200&h=600&fit=crop" alt="Oper Oslo">
+        <div class="carousel-caption">
+<h1>Moderne Architektur</h1>
+            <p>Die spektakuläre Opernhaus</p>
+        </div>
+        </div>
+        <div class="carousel-slide">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=600&fit=crop" alt="Vigeland Park">
+        <div class="carousel-caption">
+<h1>Vigeland Park</h1>
+            <p>Europas größter Skulpturenpark</p>
+        </div>
+        </div>
+        </div>
+            <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="history" class="section history-section">
+        <div class="container">
+<h2>Die Geschichte Oslos</h2>
+        <div class="history-content">
+        <div class="history-item">
+<h3>Frühe Geschichte</h3>
+            <p>Oslo wurde 1048 von König Harald Hardrada gegründet. Die Stadt war ursprünglich unter dem Namen "Christiania" bekannt und war lange Zeit der Sitz der norwegischen Könige. Die historische Akershus Festung wurde 1299 erbaut und ist eines der ältesten Bauwerke der Stadt.</p>
+        </div>
+        <div class="history-item">
+<h3>Moderne Entwicklung</h3>
+            <p>Im 19. Jahrhundert erlebte Oslo ein rasantes Wachstum. Die Umbenennung von Christiania zu Oslo erfolgte 1925. Die Stadt wurde zur kulturellen und politischen Hauptstadt Norwegens und entwickelte sich zu einer modernen Metropole mit beeindruckenden Museen und Kultureinrichtungen.</p>
+        </div>
+        <div class="history-item">
+<h3>Oslo Heute</h3>
+            <p>Heute ist Oslo eine der grünsten Hauptstädte Europas mit über 40% Waldbedeckung. Die Stadt ist bekannt für ihre Nachhaltigkeit, ihre innovative Kultur und ihre hochwertige Lebensqualität. Oslo wurde mehrfach zur lebenswertesten Stadt der Welt gewählt.</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="attractions" class="section attractions-section">
+        <div class="container">
+<h2>Top Sehenswürdigkeiten</h2>
+        <div class="attractions-grid">
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1518684079-7723277dba5c?w=400&h=300&fit=crop" alt="Opernhaus">
+<h3>Opernhaus Oslo</h3>
+            <p>Die spektakuläre Opernhaus ist eines der modernsten Opernhäuser der Welt. Mit ihrer charakteristischen weißen Marmorfassade ist sie das Wahrzeichen Oslos. Besucher können die Dachterrasse besteigen und die Stadt genießen.</p>
+            <span class="info-tag">Architektur</span>
+        </div>
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Vigeland Park">
+<h3>Vigeland Skulpturenpark</h3>
+            <p>Der größte Skulpturenpark Europas mit über 200 Bronzeskulpturen. Ein wunderschöner Ort zum Spazieren mit beeindruckenden Kunstwerken und grünen Flächen. Ideal für Fotografen und Kunstliebhaber.</p>
+            <span class="info-tag">Kunst & Natur</span>
+        </div>
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Akershus Festung">
+<h3>Akershus Festung</h3>
+            <p>Die historische Festung aus dem 13. Jahrhundert bietet einen wunderschönen Blick auf die Bucht von Oslo. Hier können Sie norwegische Geschichte erleben und traditionelle Architektur bewundern.</p>
+            <span class="info-tag">Geschichte</span>
+        </div>
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Munch Museum">
+<h3>Munch Museum</h3>
+            <p>Das weltweit bekannte Museum beherbergt die größte Sammlung von Werken des norwegischen Künstlers Edvard Munch, einschließlich des berühmten Gemäldes "Der Schrei".</p>
+            <span class="info-tag">Kunst & Kultur</span>
+        </div>
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Viking Ship Museum">
+<h3>Wikingerschiff Museum</h3>
+            <p>Entdecken Sie die faszinierende Geschichte der Wikinger mit echten Schiffen aus dem 9. Jahrhundert. Ein einzigartiges Museum, das die maritime Geschichte Norwegens zeigt.</p>
+            <span class="info-tag">Geschichte</span>
+        </div>
+        <div class="attraction-card">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Holmenkollen">
+<h3>Holmenkollen Skischanze</h3>
+            <p>Das berühmte Skisprungzentrum bietet spektakuläre Ausblicke über Oslo. Besuchen Sie das Museum, fahren Sie mit dem Aufzug zur Spitze oder genießen Sie Wintersport in den Wintermonaten.</p>
+            <span class="info-tag">Sport & Freizeit</span>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="transport" class="section transport-section">
+        <div class="container">
+<h2>Verkehr in Oslo</h2>
+        <div class="transport-grid">
+        <div class="transport-item">
+<h3>U-Bahn (T-banen)</h3>
+            <p>Das moderne U-Bahn-Netzwerk verbindet alle Teile der Stadt. Mit 6 Linien können Sie schnell und zuverlässig überall hingehen. Fahrkarten sind erschwinglich und es gibt verschiedene Ticketoptionen.</p>
+        </div>
+        <div class="transport-item">
+<h3>Busse</h3>
+            <p>Ein umfassendes Busnetzwerk deckt jeden Winkel Oslos ab. Moderne Busse mit Klimaanlage und kostenlosem WLAN machen die Fahrt angenehm.</p>
+        </div>
+        <div class="transport-item">
+<h3>Straßenbahn</h3>
+            <p>Die ikonischen roten Straßenbahnen sind seit über 100 Jahren Transportmittel in Oslo. Sie bieten eine malerische Fahrt durch die Stadt.</p>
+        </div>
+        <div class="transport-item">
+<h3>Fahrrad</h3>
+            <p>Oslo ist sehr fahrradfreundlich mit über 680 km Radwegen. Leihfahrräder sind überall verfügbar und eine großartige Möglichkeit, die Stadt zu erkunden.</p>
+        </div>
+        <div class="transport-item">
+<h3>Taxi</h3>
+            <p>Taxis sind leicht zu finden und zuverlässig. Sie können sie auf der Straße anhalten, an Taxiständen oder per App buchen. Die Preise sind fest und transparent.</p>
+        </div>
+        <div class="transport-item">
+<h3>Flughafen</h3>
+            <p>Der Oslo Airport (Gardermoen) ist etwa 50 km nordöstlich der Stadt. Es gibt regelmäßige Express-Zug-Verbindungen ins Stadtzentrum, die etwa 20 Minuten dauern.</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="restaurants" class="section restaurants-section">
+        <div class="container">
+<h2>Kulinarische Highlights</h2>
+        <div class="restaurants-grid">
+        <div class="restaurant-card">
+<h3> Maaemo</h3>
+            <p><strong>Kategorie:</strong> Nordische Küche (3 Michelin-Sterne)</p>
+            <p>Ein Zwei-Michelin-Stern-Restaurant, das innovative nordische Küche serviert. Jedes Gericht ist ein Kunstwerk mit lokal beschafften Zutaten.</p>
+            <p><strong>Durchschnittspreis:</strong> 250-300 NOK pro Person</p>
+        </div>
+        <div class="restaurant-card">
+<h3>Tsukiji</h3>
+            <p><strong>Kategorie:</strong> Japanische Küche</p>
+            <p>Authentisches japanisches Restaurant mit frischem Fisch und traditionellen Zubereitungsmethoden. Ein Muss für Sushi-Liebhaber.</p>
+            <p><strong>Durchschnittspreis:</strong> 200-250 NOK pro Person</p>
+        </div>
+        <div class="restaurant-card">
+<h3>Gro Spiseri</h3>
+            <p><strong>Kategorie:</strong> Norwegische Küche</p>
+            <p>Gemütliches Restaurant mit traditionellen norwegischen Gerichten. Perfekt für ein authentisches kulinarisches Erlebnis mit lokalen Spezialitäten.</p>
+            <p><strong>Durchschnittspreis:</strong> 150-200 NOK pro Person</p>
+        </div>
+        <div class="restaurant-card">
+<h3>Scampi</h3>
+            <p><strong>Kategorie:</strong> Italienische Küche</p>
+            <p>Wunderschönes italienisches Restaurant mit Meerblick. Frische Pasta und Meeresfrüchte in eleganter Atmosphäre.</p>
+            <p><strong>Durchschnittspreis:</strong> 180-250 NOK pro Person</p>
+        </div>
+        <div class="restaurant-card">
+<h3>Fuglen Kaffebar</h3>
+            <p><strong>Kategorie:</strong> Café & Leichte Küche</p>
+            <p>Hippes Café mit ausgezeichnetem Kaffee und leichten Speisen. Der perfekte Ort, um den Tag zu beginnen oder eine Pause einzulegen.</p>
+            <p><strong>Durchschnittspreis:</strong> 80-120 NOK pro Person</p>
+        </div>
+        <div class="restaurant-card">
+<h3>Holmenkollen Restaurant</h3>
+            <p><strong>Kategorie:</strong> Skandinavisch-International</p>
+            <p>Restaurant mit wunderschönem Ausblick auf die Stadt. Moderne Küche mit traditionellen Elementen und einem großartigen Weinsortiment.</p>
+            <p><strong>Durchschnittspreis:</strong> 200-300 NOK pro Person</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    
+    <footer id="contact" class="footer">
+        <div class="container">
+<h2>Kontakt & Informationen</h2>
+            
+        <div class="footer-content">
+        <div class="footer-item">
+<h4>Tourist Information</h4>
+            <p>Oslo Visitor Center<br>Jernbanetorget 1<br>Tel: +47 815 30 555<br>Email: info@visitoslo.com</p>
+        </div>
+        <div class="footer-item">
+<h4>Nützliche Links</h4>
+            <p><a href="#" class="footer-link">Visit Oslo</a><br>
+            <a href="#" class="footer-link">Öffentliche Verkehrsmittel</a><br>
+            <a href="#" class="footer-link">Events in Oslo</a><br>
+            <a href="#" class="footer-link">Unterkünfte</a></p>
+        </div>
+        <div class="footer-item">
+<h4>Lokale Infos</h4>
+            <p>Währung: Norwegische Krone (NOK)<br>
+            Sprache: Norwegisch<br>
+            Beste Reisezeit: Juni bis August<br>
+            Zeitzone: CET/CEST</p>
+        </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Daniel Pötz 2AHIT 2026/27</p>
+        </div>
+        </div>
+    </footer>
+
+    <script src="MyOwnSide.css"></script>
+</body>
+</html>
